@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Inner Page - Gp Bootstrap Template</title>
+  <title>potentiate-agro-tech</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="static/assets/img/favicon.png" rel="icon">
+  <link href="static/assets/img/logoPAT1.png" rel="icon">
   <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -74,10 +74,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Goat Farming</h2>
+          <h2>Login | Signup (Registeration)</h2>
           <ol>
             <li><a href="/">Home</a></li>
-            <li>Goat Farming</li>
+            <li>Login | Signup</li>
           </ol>
         </div>
 
@@ -86,9 +86,41 @@
 
     <section class="inner-page">
       <div class="container">
-        <p>
-          Example inner page template
-        </p>
+
+        <div class="container">
+        <h2>Login</h2>
+        <form action="login.php" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form action="signup.php" method="post">
+            <div class="form-group">
+                <label for="newUsername">Username:</label>
+                <input type="text" id="newUsername" name="newUsername" required>
+            </div>
+            <div class="form-group">
+                <label for="newPassword">Password:</label>
+                <input type="password" id="newPassword" name="newPassword" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+    </div>
+
       </div>
     </section>
 
